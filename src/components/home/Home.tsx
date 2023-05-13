@@ -8,7 +8,7 @@ import ScrollIcon from './ScrollIcon'
 import AvatarIcon from '../../res/icon/avatar.svg'
 import HOME_STRING from '../../res/string/home'
 // import Phone_3D from '../../res/img/Vectary texture.png'
-import Phone_3D from '../../res/img/Vectary texture - Alt.png'
+import Phone_3D from '../../res/img/Vectary texture.png'
 
 const Home = () => {
   return (

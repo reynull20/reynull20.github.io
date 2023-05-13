@@ -6,7 +6,7 @@ import * as Component from './components/layout.ts';
 function App() {
   return (
     <div>
-      <Component.SideBar/>
+      {/* <Component.SideBar/> */}
       <main className='pages'>
         <Component.Home/>
         <Component.About/>

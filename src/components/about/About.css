@@ -1,3 +1,24 @@
+.card-wrapper {
+    width: 85vw;
+    height: fit-content;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.about.content-wrapper {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about.content-wrapper > h1 {
+    margin: 3rem 0 0;
+    font-size: 3rem;
+    font-family: 'Rubik';
+    color: #78055F;
+}
+
+/* ====================== Old Variable ====================== */
 section.about {
     display: flex;
     justify-content: center;
@@ -19,6 +40,14 @@ section.about {
 
 .skill-wrapper > h3 {
     font-size: 1.5rem;
+}
+
+@media (max-width:800px) {
+    .about.content-wrapper > h1 {
+        margin: 5rem 0;
+        font-size: 2.5rem;
+        color: #78055F;
+    }
 }
 
 .skill-wrapper > h4 {
@@ -74,9 +103,24 @@ span.short-intro {
 }
 
 @media (max-width:800px) {
+    .about.main-wrapper {
+        height: fit-content;
+    }
+
     .skill-list {
         max-width: 35vh;
         max-height: 35vh;
+    }
+
+    .card {
+        width: 400px;
+        min-width: 400px;
+        border: 1px solid black;
+    }
+
+    .card-wrapper {
+        width: 100%;
+        flex-direction: column;
     }
 
     section.about {

@@ -7,11 +7,13 @@
 :root {
   --magnolia: hsla(309, 100%, 99%, 1);
   --pink-lavender: hsla(298, 57%, 83%, 1);
-  --lavender-floral: hsla(285, 62%, 70%, 1);
+  --lavender-floral: hsla(274, 100%, 86%, 1);
   --royal-purple: hsla(273, 39%, 44%, 1);
   --federal-blue: hsla(246, 49%, 24%, 1);
 
   --copyright-color: hsla(223, 40%, 38%, 0.521);
+  --background-color: var(--lavender-floral);
+  --title-color: var(var(--federal-blue));
 
   /* ====================== Font ====================== */
   /* 1rem = 16px */
@@ -27,9 +29,32 @@
   --font-medium: 500;
   --font-semibold: 600;
   --font-bold: 700;
+
+  /* ====================== Animation var ====================== */
+  --floating-offset: 10px;
 }
 
 /* ====================== Base ====================== */
+
+.main-wrapper {
+  height: 100vh;
+  width: 100vw;
+  padding: 0 5vw;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: flex;
+  height: fit-content;
+  min-height: 100vh;
+  overflow: scroll;
+  align-items: center;
+}
+
+/* ====================== Old Base ====================== */
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +65,7 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   /* Use this for the tab */
-  scroll-snap-align: center;
+  /* scroll-snap-align: center; */
 }
 
 body, textarea, input, button {
@@ -112,7 +137,7 @@ img {
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-html::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 

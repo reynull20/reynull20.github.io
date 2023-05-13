@@ -1,0 +1,16 @@
+.contact-item > h3 {
+    text-align: center;
+    font-size: 100%;
+    color: #5d8de6f6;
+    margin-top: 5px;
+}
+
+.contact-item {
+    list-style-type: none;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}

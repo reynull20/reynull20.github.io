@@ -15,15 +15,16 @@ svg {
 svg > path {
     transform: scale(2);
     fill: hsla(197, 100%, 39%, 1);
-    animation: scroll-anim 1s ease-in-out 0s infinite alternate;
+    animation: scroll-anim 1s linear 0s infinite alternate;
 }
 
-svg:nth-child(2) {
+svg:nth-child(2n) {
     bottom: 1rem;
 }
 
-svg:nth-child(1) > path {
-    animation: scroll-anim 1s ease-in-out 1.3s infinite alternate-reverse none;
+svg:nth-child(2n+1) > path {
+    animation-direction: alternate-reverse;
+    animation-delay: 1.3s;
 }
 
 @keyframes scroll-anim {

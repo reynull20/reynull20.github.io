@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.4af5418b.css",
-    "main.js": "/static/js/main.809a50c1.js",
+    "main.js": "/static/js/main.059d077a.js",
     "static/js/787.b7af92ad.chunk.js": "/static/js/787.b7af92ad.chunk.js",
     "static/media/web-background.jpg": "/static/media/web-background.83812d7fb6a97fecafa7.jpg",
-    "static/media/Vectary texture - Alt.png": "/static/media/Vectary texture - Alt.d4e2ed2b4c34501d3593.png",
+    "static/media/Vectary texture.png": "/static/media/Vectary texture.bf316ba5c6dc1f8ea7f3.png",
     "static/media/webgl-background.png": "/static/media/webgl-background.d4ab77dd4f6449dcaa83.png",
     "static/media/game background.jpg": "/static/media/game background.e342eb607df49487be86.jpg",
     "static/media/line.svg": "/static/media/line.678824b086c90e9cee3c5d72e4e39c0d.svg",
@@ -18,11 +18,11 @@
     "static/media/contact.svg": "/static/media/contact.4b2c1921c6f9c6bb199e431f1e2fcaaf.svg",
     "static/media/home.svg": "/static/media/home.80f247917ba95df5b8eb95b02cc578a0.svg",
     "main.4af5418b.css.map": "/static/css/main.4af5418b.css.map",
-    "main.809a50c1.js.map": "/static/js/main.809a50c1.js.map",
+    "main.059d077a.js.map": "/static/js/main.059d077a.js.map",
     "787.b7af92ad.chunk.js.map": "/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4af5418b.css",
-    "static/js/main.809a50c1.js"
+    "static/js/main.059d077a.js"
   ]
 }

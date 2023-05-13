@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+.project.content-wrapper > a,a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+}
+
 /* ================= Old CSS ================= */
 .project-container {
     background-color: #D5F9F9;

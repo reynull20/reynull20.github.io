@@ -7,7 +7,10 @@ const Project = () => {
     <section className='project main-wrapper'>
       <div className='project content-wrapper'>
         <h1>Projects</h1>
-        <span>Here are some of the project that i have contributed so far. Check out my Github or Email me to know more</span>
+        <div>
+        <span>Here are some of the project that i have contributed so far. Check out my </span>
+        <a href='https://github.com/reynull20?tab=repositories'>Github</a><span> or Email me to know more</span>
+        </div>
         <ProjectTab />
       </div>
     </section>

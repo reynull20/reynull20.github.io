@@ -14,7 +14,7 @@
     text-align: center;
     height: 100%;
     margin-top: 50px;
-    color: #D5F9F9;
+    color: #00ffff;
 }
 
 #game-project {
@@ -23,6 +23,10 @@
 
 #web-project {
     background-image: url('../../res/img/web-background.jpg');
+}
+
+#webgl-project {
+    background-image: url('../../res/img/webgl-background.png');
 }
 
 .project-wrapper:hover {

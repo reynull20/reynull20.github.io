@@ -1,0 +1,48 @@
+.icon-scroll-position {
+    width: 100%;
+}
+
+svg {
+    --scroll-down-icon-width: 50px;
+    bottom: 0;
+    position: absolute;
+    z-index: 100;
+    width: calc(var(--scroll-down-icon-width) * 2);
+    height: calc(var(--scroll-down-icon-width) * 2);
+    left: calc(50% - (var(--scroll-down-icon-width)/2));
+}
+
+svg > path {
+    transform: scale(2);
+    fill: hsla(197, 100%, 39%, 1);
+    animation: scroll-anim 1s ease-in-out 0s infinite alternate;
+}
+
+svg:nth-child(2) {
+    bottom: 1rem;
+}
+
+svg:nth-child(1) > path {
+    animation: scroll-anim 1s ease-in-out 1.3s infinite alternate-reverse none;
+}
+
+@keyframes scroll-anim {
+    0% {
+        fill: hsla(189, 100%, 50%, 0);
+    }
+
+    100% {
+        fill: hsla(197, 100%, 39%, 1);
+    }
+}
+
+@media (max-width:800px) {
+    svg > path {
+        transform: scale(1);
+    }
+
+    svg {
+        width: var(--scroll-down-icon-width);
+        height: var(--scroll-down-icon-width);
+    }
+}

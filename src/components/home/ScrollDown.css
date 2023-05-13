@@ -1,0 +1,17 @@
+.scroll-icon {
+    --scroll-down-icon-width: 50px;
+    position: absolute;
+    bottom: 0;
+    width: var(--scroll-down-icon-width);
+    left: calc(50% - (var(--scroll-down-icon-width)/2));
+    z-index: 100;
+}
+
+.scroll-icon:nth-child(2) {
+    bottom: 1rem;
+    animation: scroll-anim 2s ease-in-out 1s infinite alternate;
+}
+
+.scroll-icon:nth-child(1) {
+    animation: scroll-anim 2s ease-in-out 1s infinite alternate-reverse;
+}

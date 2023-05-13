@@ -1,0 +1,41 @@
+.contact-container{
+    background-color: #78055F;
+}
+
+h1.contact-title {
+    color: white;
+}
+
+.contact-item {
+    list-style-type: none;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.about-container {
+    background-color: #E0B8FF;
+}
+
+.contact {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10vh;
+}
+
+.contact-item > h3 {
+    text-align: center;
+    font-size: 100%;
+    margin-top: 5px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    column-gap: 2.5rem;
+}

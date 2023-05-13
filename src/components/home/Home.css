@@ -1,0 +1,110 @@
+.sidebar {
+    width: 10%;
+    background-color: aqua;
+}
+
+section.tab.home.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10vw;
+}
+
+section.tab.home.container > div.section-item:nth-child(2) {
+    margin: 0rem 0rem 0rem 5rem;
+}
+
+.intro-image {
+    width: 50vw;
+    height: 90vh;
+    margin-left: 3rem;
+}
+
+@keyframes floating-phone {
+    0% {transform: translateY(var(--translate-lenght));}
+    50% {transform: translateY(calc(-1 * (var(--translate-lenght))));}
+    100% {transform: translateY(var(--translate-lenght));}
+}
+
+.intro-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    animation: floating-phone 5s ease-in-out 1s infinite alternate;
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 1.5rem;
+}
+
+.profile-image-container {
+    padding: .5rem;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#008FC7,#F87CE7);
+}
+
+.header > img {
+    /* border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px; */
+    border-radius: 50%;
+    /* border-image-source: linear-gradient(45deg,#d641b6,#e68404); */
+}
+
+.home-container {
+    background: linear-gradient(45deg,#78055F,#6312A4);
+}
+
+h1.home_name, h5.home_subtext {
+    color: white;
+    text-shadow: 0px 0px 24px #92FFF8;
+    font-family: 'Spectral';
+}
+
+h1.home_name {
+    font-size: 2.5rem;
+}
+
+h5.home_subtext {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.home_avatar {
+    width: 20vw;
+    max-width: 100px;
+}
+
+.intro > span, h1, h5 {
+    text-align: left;
+}
+
+@media (max-width:800px) {
+    section.tab.home.container {
+        flex-direction: column-reverse;
+    }
+
+    section.tab.home.container > div.section-item:nth-child(2) {
+        margin: 5rem 0 2rem;
+    }
+
+    .intro-image {
+        height: 45vh;
+        width: 70vw;
+    }
+
+    .intro > span, h1, h5 {
+        text-align: center;
+    }
+}

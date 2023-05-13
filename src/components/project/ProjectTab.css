@@ -1,0 +1,46 @@
+.project-wrapper {
+    margin: 1em;
+    min-width: 300px;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    background-blend-mode:lighten;
+    background-size: cover;
+    transition: all .1s linear 0s;
+}
+
+.project-wrapper > h1 {
+    text-align: center;
+    height: 100%;
+    margin-top: 50px;
+    color: #D5F9F9;
+}
+
+#game-project {
+    background-image: url('../../res/img/game\ background.jpg');
+}   
+
+#web-project {
+    background-image: url('../../res/img/web-background.jpg');
+}
+
+.project-wrapper:hover {
+    background-color: hsla(0, 0%, 9%, 0.7);
+    background-blend-mode: darken;
+}
+
+.proj-tab-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+    width: 100%;
+}
+
+@media (max-width:800px) {
+    .proj-tab-wrapper {
+        flex-direction: column;
+        margin: 1em;
+    }   
+}

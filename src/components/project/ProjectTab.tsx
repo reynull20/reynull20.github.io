@@ -11,7 +11,7 @@ const ProjectTab = () => {
   }
   return (
     <div className='proj-tab-wrapper'>
-        <div className='project-wrapper' id='game-project' onClick={openlink('https://gitlab.com/reynull20/univ-unity-project')}>
+        <div className='project-wrapper' id='game-project' onClick={openlink('https://gitlab.informatika.org/reynull/if3210-2023-unity-tbs')}>
             <h1>Game</h1>
         </div>
         <div className='project-wrapper' id='web-project' onClick={openlink('https://github.com/reynull20/practice-webgl-threejs')}>

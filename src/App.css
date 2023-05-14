@@ -1,4 +1,27 @@
-.pages {
-  /* margin-left: 100px;  */
+/* Custom Fonts */
+@font-face {
+  font-family: Rubik;
+  src: url('./res/fonts/Rubik//static/Rubik-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url('./res/fonts/Rubik//static/Rubik-Bold.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url('./res/fonts/Rubik//static/Rubik-Bold.ttf');
+  font-weight: 400;
+}
+
+/* .pages {
+  margin-left: 100px; 
   scroll-behavior: smooth;
+} */
+
+.App {
+  text-align: center;
 }

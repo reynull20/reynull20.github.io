@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-svg {
+/* svg {
     --scroll-down-icon-width: 50px;
     bottom: 0;
     position: absolute;
@@ -25,7 +25,7 @@ svg:nth-child(2n) {
 svg:nth-child(2n+1) > path {
     animation-direction: alternate-reverse;
     animation-delay: 1.3s;
-}
+} */
 
 @keyframes scroll-anim {
     0% {

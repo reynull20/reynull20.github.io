@@ -5,14 +5,17 @@ import * as Component from './components/layout.ts';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
+      <Component.NavBar />
+      <Component.Banner />
+      <Component.Skills />
       {/* <Component.SideBar/> */}
-      <main className='pages'>
+      {/* <main className='pages'>
         <Component.Home/>
         <Component.About/>
         <Component.Project/>
         <Component.Contact/>
-      </main>
+      </main> */}
     </div>
   )
 }

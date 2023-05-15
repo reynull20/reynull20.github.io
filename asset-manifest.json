@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.4af5418b.css",
-    "main.js": "/static/js/main.d18fc406.js",
+    "main.css": "/static/css/main.9ea188f9.css",
+    "main.js": "/static/js/main.85513d39.js",
     "static/js/787.b7af92ad.chunk.js": "/static/js/787.b7af92ad.chunk.js",
-    "static/media/web-background.jpg": "/static/media/web-background.83812d7fb6a97fecafa7.jpg",
+    "static/media/home-background.jpg": "/static/media/home-background.9edb116f52ccef2c87d2.jpg",
     "static/media/Vectary texture.png": "/static/media/Vectary texture.bf316ba5c6dc1f8ea7f3.png",
+    "static/media/space-force-logo.webp": "/static/media/space-force-logo.8e3d648877c4d486ed52.webp",
+    "static/media/Rubik-Bold.ttf": "/static/media/Rubik-Bold.433b599535e1d929aaf8.ttf",
     "static/media/webgl-background.png": "/static/media/webgl-background.d4ab77dd4f6449dcaa83.png",
-    "static/media/game background.jpg": "/static/media/game background.e342eb607df49487be86.jpg",
-    "static/media/line.svg": "/static/media/line.678824b086c90e9cee3c5d72e4e39c0d.svg",
-    "static/media/gmail.svg": "/static/media/gmail.ad090b49e7b1cc956c63507159396bad.svg",
-    "static/media/twitter.svg": "/static/media/twitter.e0cf1fcc791b8372662dcb30b67c2020.svg",
+    "static/media/Framework Icon.png": "/static/media/Framework Icon.feff891238316ccf60b5.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/github-142-svgrepo-com.svg": "/static/media/github-142-svgrepo-com.158547368516acc139f2e0df058bfff7.svg",
+    "static/media/discord-svgrepo-com.svg": "/static/media/discord-svgrepo-com.a4edff5eb9d5ea1e4df748d22d1ff7c7.svg",
     "static/media/about.svg": "/static/media/about.fe4799a8106870e2fcc48bfc529b1811.svg",
-    "static/media/gitlab.svg": "/static/media/gitlab.34d9a91a96f6991005a0e833e25eecdf.svg",
-    "static/media/github.svg": "/static/media/github.404ff619057c051258a81f63d464629e.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.c341cc1c307221b0fe42599c619ceeaf.svg",
+    "static/media/email-1572-svgrepo-com.svg": "/static/media/email-1572-svgrepo-com.82219f43b8b49222b4cf5a29b7835c35.svg",
     "index.html": "/index.html",
     "static/media/contact.svg": "/static/media/contact.4b2c1921c6f9c6bb199e431f1e2fcaaf.svg",
     "static/media/home.svg": "/static/media/home.80f247917ba95df5b8eb95b02cc578a0.svg",
-    "main.4af5418b.css.map": "/static/css/main.4af5418b.css.map",
-    "main.d18fc406.js.map": "/static/js/main.d18fc406.js.map",
+    "main.9ea188f9.css.map": "/static/css/main.9ea188f9.css.map",
+    "main.85513d39.js.map": "/static/js/main.85513d39.js.map",
     "787.b7af92ad.chunk.js.map": "/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4af5418b.css",
-    "static/js/main.d18fc406.js"
+    "static/css/main.9ea188f9.css",
+    "static/js/main.85513d39.js"
   ]
 }

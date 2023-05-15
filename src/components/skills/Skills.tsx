@@ -36,7 +36,7 @@ const Skills = () => {
 
     return (
         <section className="skill" id="skills">
-            <Container>
+            <Container className='skill-container'>
                 <Row>
                     {/* <Col md={3}>
                         <Carousel className='vertical' activeIndex={index} onSelect={handleSelect}>

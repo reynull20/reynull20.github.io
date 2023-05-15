@@ -9,12 +9,13 @@ function App() {
       <Component.NavBar />
       <Component.Banner />
       <Component.Skills />
+      <Component.Project/>
+      <Component.Contact/>
+       
       {/* <Component.SideBar/> */}
       {/* <main className='pages'>
         <Component.Home/>
         <Component.About/>
-        <Component.Project/>
-        <Component.Contact/>
       </main> */}
     </div>
   )

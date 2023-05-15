@@ -1,4 +1,9 @@
-.contact-container{
+.email-logo {
+    width: 100%;
+    filter: invert(100%);
+}
+
+/* .contact-container{
     background-color: #78055F;
 }
 
@@ -23,4 +28,4 @@ h1.contact-title {
     flex-direction: column;
     justify-content: center;
     row-gap: 10vh;
-}
+} */
